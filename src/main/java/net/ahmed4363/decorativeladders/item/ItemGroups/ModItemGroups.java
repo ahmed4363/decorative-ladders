@@ -20,6 +20,7 @@ public class ModItemGroups {
 
                 entries.add(ModBlocks.OAK_PLANK_LADDER);
                 entries.add(ModBlocks.OAK_LOG_LADDER);
+                entries.add(ModBlocks.STRIPPED_OAK_LOG_LADDER);
 
             }).build());
 

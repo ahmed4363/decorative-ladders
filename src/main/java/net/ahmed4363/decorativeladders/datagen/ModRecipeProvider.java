@@ -31,5 +31,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         ladderRecipe(ModBlocks.OAK_PLANK_LADDER, Blocks.OAK_PLANKS, exporter);
         ladderRecipe(ModBlocks.OAK_LOG_LADDER, Blocks.OAK_LOG, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_OAK_LOG_LADDER, Blocks.STRIPPED_OAK_LOG, exporter);
     }
 }

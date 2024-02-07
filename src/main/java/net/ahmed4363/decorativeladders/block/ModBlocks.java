@@ -18,6 +18,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block OAK_PLANK_LADDER = RegisterBlock("oak_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).pistonBehavior(PistonBehavior.NORMAL)));
     public static final Block OAK_LOG_LADDER = RegisterBlock("oak_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_OAK_LOG_LADDER = RegisterBlock("stripped_oak_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
 
     private static Block RegisterBlock(String name, Block block)
     {
@@ -32,6 +33,7 @@ public class ModBlocks {
     {
         DecorativeLadders.LOGGER.info("Registering Blocks for " + DecorativeLadders.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, OAK_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, STRIPPED_OAK_LOG_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, OAK_LOG_LADDER));
     }
 }
