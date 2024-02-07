@@ -16,12 +16,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                //Oak
                 .add(ModBlocks.OAK_PLANK_LADDER)
                 .add(ModBlocks.OAK_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_OAK_LOG_LADDER);
+                .add(ModBlocks.STRIPPED_OAK_LOG_LADDER)
+                //Spruce
+                .add(ModBlocks.SPRUCE_PLANK_LADDER)
+                .add(ModBlocks.SPRUCE_LOG_LADDER)
+                .add(ModBlocks.STRIPPED_SPRUCE_LOG_LADDER);
         getOrCreateTagBuilder(BlockTags.CLIMBABLE)
+                //Oak
                 .add(ModBlocks.OAK_PLANK_LADDER)
                 .add(ModBlocks.OAK_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_OAK_LOG_LADDER);
+                .add(ModBlocks.STRIPPED_OAK_LOG_LADDER)
+                //Spruce
+                .add(ModBlocks.SPRUCE_PLANK_LADDER)
+                .add(ModBlocks.SPRUCE_LOG_LADDER)
+                .add(ModBlocks.STRIPPED_SPRUCE_LOG_LADDER);
     }
 }

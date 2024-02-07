@@ -1,7 +1,12 @@
 {
+
   "block.decorative-ladders.oak_plank_ladder": "Oak Plank Ladder",
   "block.decorative-ladders.oak_log_ladder": "Oak Log Ladder",
   "block.decorative-ladders.stripped_oak_log_ladder": "Stripped Oak Log Ladder",
+
+  "block.decorative-ladders.spruce_plank_ladder": "Spruce Plank Ladder",
+  "block.decorative-ladders.spruce_log_ladder": "Spruce Log Ladder",
+  "block.decorative-ladders.stripped_spruce_log_ladder": "Stripped Spruce Log Ladder",
 
   "itemgroup.decorative-ladders.ladders": "Decorative Ladders"
 }

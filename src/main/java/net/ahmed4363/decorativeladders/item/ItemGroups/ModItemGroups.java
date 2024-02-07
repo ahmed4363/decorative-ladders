@@ -17,11 +17,14 @@ public class ModItemGroups {
             .displayName(Text.translatable("itemgroup.decorative-ladders.ladders"))
             .icon(() -> new ItemStack(Blocks.LADDER))
             .entries((displayContext, entries) -> {
-
+                //Oak
                 entries.add(ModBlocks.OAK_PLANK_LADDER);
                 entries.add(ModBlocks.OAK_LOG_LADDER);
                 entries.add(ModBlocks.STRIPPED_OAK_LOG_LADDER);
-
+                //Spruce
+                entries.add(ModBlocks.SPRUCE_PLANK_LADDER);
+                entries.add(ModBlocks.SPRUCE_LOG_LADDER);
+                entries.add(ModBlocks.STRIPPED_SPRUCE_LOG_LADDER);
             }).build());
 
 

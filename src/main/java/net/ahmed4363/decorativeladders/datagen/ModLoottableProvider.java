@@ -11,8 +11,14 @@ public class ModLoottableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        //Oak
         addDrop(ModBlocks.OAK_LOG_LADDER);
         addDrop(ModBlocks.STRIPPED_OAK_LOG_LADDER);
         addDrop(ModBlocks.OAK_PLANK_LADDER);
+        //Spruce
+        addDrop(ModBlocks.SPRUCE_PLANK_LADDER);
+        addDrop(ModBlocks.STRIPPED_SPRUCE_LOG_LADDER);
+        addDrop(ModBlocks.SPRUCE_LOG_LADDER);
+
     }
 }

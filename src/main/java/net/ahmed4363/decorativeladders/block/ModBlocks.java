@@ -16,10 +16,14 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    //Oak Set
     public static final Block OAK_PLANK_LADDER = RegisterBlock("oak_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).pistonBehavior(PistonBehavior.NORMAL)));
     public static final Block OAK_LOG_LADDER = RegisterBlock("oak_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
     public static final Block STRIPPED_OAK_LOG_LADDER = RegisterBlock("stripped_oak_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
-
+    //Spruce Set
+    public static final Block SPRUCE_PLANK_LADDER = RegisterBlock("spruce_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block SPRUCE_LOG_LADDER = RegisterBlock("spruce_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_SPRUCE_LOG_LADDER = RegisterBlock("stripped_spruce_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
     private static Block RegisterBlock(String name, Block block)
     {
         RegisterBlockItem(name, block);
@@ -32,8 +36,13 @@ public class ModBlocks {
     public static void RegisterModBlocks()
     {
         DecorativeLadders.LOGGER.info("Registering Blocks for " + DecorativeLadders.MOD_ID);
+        //OAK SET
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, OAK_PLANK_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, STRIPPED_OAK_LOG_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, OAK_LOG_LADDER));
+        //SPRUCE SET
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.SPRUCE_BUTTON, SPRUCE_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.SPRUCE_BUTTON, STRIPPED_SPRUCE_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.SPRUCE_BUTTON, SPRUCE_LOG_LADDER));
     }
 }

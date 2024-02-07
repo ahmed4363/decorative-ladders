@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "decorative-ladders:block/spruce/stripped_spruce_log_ladder", "y": 180, "uvlock": true },
+    "facing=west":  { "model": "decorative-ladders:block/spruce/stripped_spruce_log_ladder", "y":  90, "uvlock": true },
+    "facing=south": { "model": "decorative-ladders:block/spruce/stripped_spruce_log_ladder", "uvlock": true },
+    "facing=east":  { "model": "decorative-ladders:block/spruce/stripped_spruce_log_ladder", "y": 270, "uvlock": true }
+  }
+}
