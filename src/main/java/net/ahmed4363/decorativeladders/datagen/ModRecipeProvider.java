@@ -37,5 +37,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ladderRecipe(ModBlocks.SPRUCE_PLANK_LADDER, Blocks.SPRUCE_PLANKS, exporter);
         ladderRecipe(ModBlocks.SPRUCE_LOG_LADDER, Blocks.SPRUCE_LOG, exporter);
         ladderRecipe(ModBlocks.STRIPPED_SPRUCE_LOG_LADDER, Blocks.STRIPPED_SPRUCE_LOG, exporter);
+        //Birch
+        ladderRecipe(ModBlocks.BIRCH_PLANK_LADDER, Blocks.BIRCH_PLANKS, exporter);
+        ladderRecipe(ModBlocks.BIRCH_LOG_LADDER, Blocks.BIRCH_LOG, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_BIRCH_LOG_LADDER, Blocks.STRIPPED_BIRCH_LOG, exporter);
     }
 }

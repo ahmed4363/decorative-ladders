@@ -2,7 +2,6 @@ package net.ahmed4363.decorativeladders.tags;
 
 import net.ahmed4363.decorativeladders.DecorativeLadders;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;

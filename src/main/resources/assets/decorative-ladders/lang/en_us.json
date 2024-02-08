@@ -8,5 +8,9 @@
   "block.decorative-ladders.spruce_log_ladder": "Spruce Log Ladder",
   "block.decorative-ladders.stripped_spruce_log_ladder": "Stripped Spruce Log Ladder",
 
+  "block.decorative-ladders.birch_plank_ladder": "Birch Plank Ladder",
+  "block.decorative-ladders.birch_log_ladder": "Birch Log Ladder",
+  "block.decorative-ladders.stripped_birch_log_ladder": "Stripped Birch Log Ladder",
+
   "itemgroup.decorative-ladders.ladders": "Decorative Ladders"
 }

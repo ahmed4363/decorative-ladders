@@ -24,6 +24,44 @@ public class ModBlocks {
     public static final Block SPRUCE_PLANK_LADDER = RegisterBlock("spruce_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
     public static final Block SPRUCE_LOG_LADDER = RegisterBlock("spruce_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
     public static final Block STRIPPED_SPRUCE_LOG_LADDER = RegisterBlock("stripped_spruce_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Birch Set
+    public static final Block BIRCH_PLANK_LADDER = RegisterBlock("birch_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block BIRCH_LOG_LADDER = RegisterBlock("birch_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_BIRCH_LOG_LADDER = RegisterBlock("stripped_birch_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Dark Oak Set
+    public static final Block DARK_OAK_PLANK_LADDER = RegisterBlock("dark_oak_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block DARK_OAK_LOG_LADDER = RegisterBlock("dark_oak_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_DARK_OAK_LOG_LADDER = RegisterBlock("stripped_dark_oak_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Acacia Set
+    public static final Block ACACIA_PLANK_LADDER = RegisterBlock("acacia_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block ACACIA_LOG_LADDER = RegisterBlock("acacia_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_ACACIA_LOG_LADDER = RegisterBlock("stripped_acacia_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Jungle Set
+    public static final Block JUNGLE_PLANK_LADDER = RegisterBlock("jungle_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block JUNGLE_LOG_LADDER = RegisterBlock("jungle_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_JUNGLE_LOG_LADDER = RegisterBlock("stripped_jungle_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Mangrove Set
+    public static final Block MANGROVE_PLANK_LADDER = RegisterBlock("mangrove_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block MANGROVE_LOG_LADDER = RegisterBlock("mangrove_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_MANGROVE_LOG_LADDER = RegisterBlock("stripped_mangrove_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Cherry Set
+    public static final Block CHERRY_PLANK_LADDER = RegisterBlock("cherry_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block CHERRY_LOG_LADDER = RegisterBlock("cherry_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_CHERRY_LOG_LADDER = RegisterBlock("stripped_cherry_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Bamboo Set
+    public static final Block BAMBOO_PLANK_LADDER = RegisterBlock("bamboo_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block BAMBOO_LOG_LADDER = RegisterBlock("bamboo_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_BAMBOO_LOG_LADDER = RegisterBlock("stripped_bamboo_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Crimson Set
+    public static final Block CRIMSON_PLANK_LADDER = RegisterBlock("crimson_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block CRIMSON_LOG_LADDER = RegisterBlock("crimson_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_CRIMSON_LOG_LADDER = RegisterBlock("stripped_crimson_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    //Warped Set
+    public static final Block WARPED_PLANK_LADDER = RegisterBlock("warped_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block WARPED_LOG_LADDER = RegisterBlock("warped_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    public static final Block STRIPPED_WARPED_LOG_LADDER = RegisterBlock("stripped_warped_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+
+
     private static Block RegisterBlock(String name, Block block)
     {
         RegisterBlockItem(name, block);
