@@ -20,5 +20,9 @@
   "block.decorative-ladders.acacia_log_ladder": "Acacia Log Ladder",
   "block.decorative-ladders.stripped_acacia_log_ladder": "Stripped Acacia Log Ladder",
 
+  "block.decorative-ladders.jungle_plank_ladder": "Jungle Plank Ladder",
+  "block.decorative-ladders.jungle_log_ladder": "Jungle Log Ladder",
+  "block.decorative-ladders.stripped_jungle_log_ladder": "Stripped Jungle Log Ladder",
+
   "itemgroup.decorative-ladders.ladders": "Decorative Ladders"
 }
