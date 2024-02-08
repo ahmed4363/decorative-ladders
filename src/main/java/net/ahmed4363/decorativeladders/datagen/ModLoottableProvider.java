@@ -54,7 +54,7 @@ public class ModLoottableProvider extends FabricBlockLootTableProvider {
                 //Warped
                 addDrop(ModBlocks.WARPED_PLANK_LADDER);
                 addDrop(ModBlocks.WARPED_LOG_LADDER);
-                addDrop(ModBlocks.STRIPPED_WARPED_LOG_LADDER);;
+                addDrop(ModBlocks.STRIPPED_WARPED_LOG_LADDER);
 
     }
 }
