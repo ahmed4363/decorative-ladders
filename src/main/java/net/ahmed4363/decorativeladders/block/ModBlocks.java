@@ -74,13 +74,49 @@ public class ModBlocks {
     public static void RegisterModBlocks()
     {
         DecorativeLadders.LOGGER.info("Registering Blocks for " + DecorativeLadders.MOD_ID);
-        //OAK SET
+        //Oak
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, OAK_PLANK_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, STRIPPED_OAK_LOG_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, OAK_LOG_LADDER));
-        //SPRUCE SET
+        //Spruce
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.SPRUCE_BUTTON, SPRUCE_PLANK_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.SPRUCE_BUTTON, STRIPPED_SPRUCE_LOG_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.SPRUCE_BUTTON, SPRUCE_LOG_LADDER));
+        //Birch
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.BIRCH_BUTTON, BIRCH_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.BIRCH_BUTTON, STRIPPED_BIRCH_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.BIRCH_BUTTON, BIRCH_LOG_LADDER));
+        //Dark Oak
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.DARK_OAK_BUTTON, DARK_OAK_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.DARK_OAK_BUTTON, STRIPPED_DARK_OAK_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.DARK_OAK_BUTTON, DARK_OAK_LOG_LADDER));
+        //Acacia
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.ACACIA_BUTTON, ACACIA_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.ACACIA_BUTTON, STRIPPED_ACACIA_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.ACACIA_BUTTON, ACACIA_LOG_LADDER));
+        //Jungle
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.JUNGLE_BUTTON, JUNGLE_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.JUNGLE_BUTTON, STRIPPED_JUNGLE_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.JUNGLE_BUTTON, JUNGLE_LOG_LADDER));
+        //Mangrove
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.MANGROVE_BUTTON, MANGROVE_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.MANGROVE_BUTTON, STRIPPED_MANGROVE_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.MANGROVE_BUTTON, MANGROVE_LOG_LADDER));
+        //Cherry
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.CHERRY_BUTTON, CHERRY_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.CHERRY_BUTTON, STRIPPED_CHERRY_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.CHERRY_BUTTON, CHERRY_LOG_LADDER));
+        //Bamboo
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.BAMBOO_BUTTON, BAMBOO_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.BAMBOO_BUTTON, STRIPPED_BAMBOO_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.BAMBOO_BUTTON, BAMBOO_LOG_LADDER));
+        //Crimson
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.CRIMSON_BUTTON, CRIMSON_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.CRIMSON_BUTTON, STRIPPED_CRIMSON_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.CRIMSON_BUTTON, CRIMSON_LOG_LADDER));
+        //Warped
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, WARPED_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, STRIPPED_WARPED_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, WARPED_LOG_LADDER));
     }
 }
