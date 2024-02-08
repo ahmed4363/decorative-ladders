@@ -1,6 +1,7 @@
 package net.ahmed4363.decorativeladders.item.ItemGroups;
 
 import net.ahmed4363.decorativeladders.DecorativeLadders;
+/*
 import net.ahmed4363.decorativeladders.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Blocks;
@@ -10,10 +11,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+*/
 
 public class ModItemGroups {
 
-    private static final ItemGroup Ladders = Registry.register(Registries.ITEM_GROUP,new Identifier(DecorativeLadders.MOD_ID, "ladders"),FabricItemGroup.builder()
+    /*private static final ItemGroup Ladders = Registry.register(Registries.ITEM_GROUP,new Identifier(DecorativeLadders.MOD_ID, "ladders"),FabricItemGroup.builder()
             .displayName(Text.translatable("itemgroup.decorative-ladders.ladders"))
             .icon(() -> new ItemStack(Blocks.LADDER))
             .entries((displayContext, entries) -> {
@@ -62,7 +64,7 @@ public class ModItemGroups {
                 entries.add(ModBlocks.WARPED_LOG_LADDER);
                 entries.add(ModBlocks.STRIPPED_WARPED_LOG_LADDER);
             }).build());
-
+            */
 
     public static void RegisterItemGroups()
     {
