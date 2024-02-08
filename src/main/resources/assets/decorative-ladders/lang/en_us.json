@@ -12,5 +12,13 @@
   "block.decorative-ladders.birch_log_ladder": "Birch Log Ladder",
   "block.decorative-ladders.stripped_birch_log_ladder": "Stripped Birch Log Ladder",
 
+  "block.decorative-ladders.dark_oak_plank_ladder": "Dark Oak Plank Ladder",
+  "block.decorative-ladders.dark_oak_log_ladder": "Dark Oak Log Ladder",
+  "block.decorative-ladders.stripped_dark_oak_log_ladder": "Stripped Dark Oak Log Ladder",
+
+  "block.decorative-ladders.acacia_plank_ladder": "Acacia Plank Ladder",
+  "block.decorative-ladders.acacia_log_ladder": "Acacia Log Ladder",
+  "block.decorative-ladders.stripped_acacia_log_ladder": "Stripped Acacia Log Ladder",
+
   "itemgroup.decorative-ladders.ladders": "Decorative Ladders"
 }
