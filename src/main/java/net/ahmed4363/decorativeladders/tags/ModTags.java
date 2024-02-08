@@ -1,6 +1,8 @@
 package net.ahmed4363.decorativeladders.tags;
 
 import net.ahmed4363.decorativeladders.DecorativeLadders;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
@@ -12,6 +14,13 @@ public class ModTags {
 
         public static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(DecorativeLadders.MOD_ID, name));
+        }
+    }
+    public static class Blocks {
+        public static final TagKey<Block> LADDERS = createTag("ladders");
+
+        public static TagKey<Block> createTag(String name) {
+            return TagKey.of(RegistryKeys.BLOCK, new Identifier(DecorativeLadders.MOD_ID, name));
         }
     }
 
