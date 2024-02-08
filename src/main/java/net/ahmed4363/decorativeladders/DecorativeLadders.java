@@ -1,5 +1,6 @@
 package net.ahmed4363.decorativeladders;
 
+import net.ahmed4363.decorativeladders.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class DecorativeLadders implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModBlocks.RegisterModBlocks();
 	}
 }
