@@ -49,5 +49,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ladderRecipe(ModBlocks.ACACIA_PLANK_LADDER, Blocks.ACACIA_PLANKS, exporter);
         ladderRecipe(ModBlocks.ACACIA_LOG_LADDER, Blocks.ACACIA_LOG, exporter);
         ladderRecipe(ModBlocks.STRIPPED_ACACIA_LOG_LADDER, Blocks.STRIPPED_ACACIA_LOG, exporter);
+        //Jungle
+        ladderRecipe(ModBlocks.JUNGLE_PLANK_LADDER, Blocks.JUNGLE_PLANKS, exporter);
+        ladderRecipe(ModBlocks.JUNGLE_LOG_LADDER, Blocks.JUNGLE_LOG, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_JUNGLE_LOG_LADDER, Blocks.STRIPPED_JUNGLE_LOG, exporter);
+        //Mangrove
+        ladderRecipe(ModBlocks.MANGROVE_PLANK_LADDER, Blocks.MANGROVE_PLANKS, exporter);
+        ladderRecipe(ModBlocks.MANGROVE_LOG_LADDER, Blocks.MANGROVE_LOG, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_MANGROVE_LOG_LADDER, Blocks.STRIPPED_MANGROVE_LOG, exporter);
+        //Cherry
+        ladderRecipe(ModBlocks.CHERRY_PLANK_LADDER, Blocks.CHERRY_PLANKS, exporter);
+        ladderRecipe(ModBlocks.CHERRY_LOG_LADDER, Blocks.CHERRY_LOG, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_CHERRY_LOG_LADDER, Blocks.STRIPPED_CHERRY_LOG, exporter);
+        //Bamboo
+        ladderRecipe(ModBlocks.BAMBOO_PLANK_LADDER, Blocks.BAMBOO_PLANKS, exporter);
+        ladderRecipe(ModBlocks.BAMBOO_LOG_LADDER, Blocks.BAMBOO_BLOCK, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_BAMBOO_LOG_LADDER, Blocks.STRIPPED_BAMBOO_BLOCK, exporter);
+        //Crimson
+        ladderRecipe(ModBlocks.CRIMSON_PLANK_LADDER, Blocks.CRIMSON_PLANKS, exporter);
+        ladderRecipe(ModBlocks.CRIMSON_LOG_LADDER, Blocks.CRIMSON_STEM, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_CRIMSON_LOG_LADDER, Blocks.STRIPPED_CRIMSON_STEM, exporter);
+        //Warped
+        ladderRecipe(ModBlocks.WARPED_PLANK_LADDER, Blocks.WARPED_PLANKS, exporter);
+        ladderRecipe(ModBlocks.WARPED_LOG_LADDER, Blocks.WARPED_STEM, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_WARPED_LOG_LADDER, Blocks.STRIPPED_WARPED_STEM, exporter);
     }
 }
