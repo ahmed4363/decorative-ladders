@@ -1,4 +1,4 @@
-// 1.20.1	2024-02-08T15:32:18.6710412	Decorative Ladders/Block Loot Tables
+// 1.20.1	2024-02-11T14:14:03.6254276	Decorative Ladders/Block Loot Tables
 22557ce194b89826713bd9d44cd09aebfbcf71b5 data\decorative-ladders\loot_tables\blocks\warped_log_ladder.json
 cfdeddfe4729f8cdb6e54d23b4186a54906e22b2 data\decorative-ladders\loot_tables\blocks\mangrove_plank_ladder.json
 735d3971e4ca90cb73580760b8ddffd6fe29d30c data\decorative-ladders\loot_tables\blocks\jungle_plank_ladder.json
@@ -12,8 +12,8 @@ fadfbbc1f68294c1d7074ee2f836f2f5f403ce1c data\decorative-ladders\loot_tables\blo
 c2255048873dfe806742d8dcd608cb89a7cf51d6 data\decorative-ladders\loot_tables\blocks\oak_plank_ladder.json
 319b466510151b3ee9ce268d93566dac9d1b2cec data\decorative-ladders\loot_tables\blocks\stripped_birch_log_ladder.json
 ab55af1523dea885c935c95c22f7434d69216121 data\decorative-ladders\loot_tables\blocks\dark_oak_log_ladder.json
-82495247f9fd718bc7a2b08d0db8f16473e851f0 data\decorative-ladders\loot_tables\blocks\stripped_dark_oak_log_ladder.json
 2a385a5caea4eccc52eb8ff2d40b144b8edbce26 data\decorative-ladders\loot_tables\blocks\warped_plank_ladder.json
+82495247f9fd718bc7a2b08d0db8f16473e851f0 data\decorative-ladders\loot_tables\blocks\stripped_dark_oak_log_ladder.json
 27cfe32470052f9a4b475e273f4c998e183c56d7 data\decorative-ladders\loot_tables\blocks\crimson_log_ladder.json
 54597d7747affd9d0659cfd61cecde3768d19821 data\decorative-ladders\loot_tables\blocks\jungle_log_ladder.json
 15277eeb6ba7dd922ece62c6b46f1d626e29d5c3 data\decorative-ladders\loot_tables\blocks\cherry_log_ladder.json

@@ -18,12 +18,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
     private void ladderRecipe(Block ladder, Block input, Consumer<RecipeJsonProvider> exporter)
     {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ladder, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ladder, 7)
                 .pattern("# #")
                 .pattern("###")
                 .pattern("# #")
                 .input('#', input)
-                .criterion(hasItem(input), conditionsFromItem(input))
+                .criterion(FabricRecipeProvider.hasItem(input), FabricRecipeProvider.conditionsFromItem(ladder))
                 .offerTo(exporter, new Identifier(getRecipeName(ladder)));
     }
 
