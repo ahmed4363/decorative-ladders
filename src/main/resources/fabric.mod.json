@@ -8,7 +8,8 @@
 		"ahmed4363"
 	],
 	"contact": {
-		"sources": "https://github.com/ahmed4363/decorative-ladders"
+		"sources": "https://github.com/ahmed4363/decorative-ladders",
+		"issues": "https://github.com/ahmed4363/decorative-ladders/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/decorative-ladders/icon.png",
