@@ -17,7 +17,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     //Oak Set
-    public static final Block OAK_PLANK_LADDER = RegisterBlock("oak_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).pistonBehavior(PistonBehavior.NORMAL)));
+    public static final Block OAK_PLANK_LADDER = RegisterBlock("oak_plank_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).pistonBehavior(PistonBehavior.NORMAL).solid()));
     public static final Block OAK_LOG_LADDER = RegisterBlock("oak_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
     public static final Block STRIPPED_OAK_LOG_LADDER = RegisterBlock("stripped_oak_log_ladder", new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
     //Spruce Set
