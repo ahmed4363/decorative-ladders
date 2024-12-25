@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "minecraft:crimson_planks"
+  },
+  "pattern": [
+    "H H",
+    "HHH",
+    "H H"
+  ],
+  "result": {
+    "count": 7,
+    "id": "decorative-ladders:crimson_plank_ladder"
+  }
+}

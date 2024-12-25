@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "minecraft:bamboo_block"
+  },
+  "pattern": [
+    "H H",
+    "HHH",
+    "H H"
+  ],
+  "result": {
+    "count": 7,
+    "id": "decorative-ladders:bamboo_log_ladder"
+  }
+}

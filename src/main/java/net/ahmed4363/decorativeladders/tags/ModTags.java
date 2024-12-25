@@ -12,14 +12,14 @@ public class ModTags {
         public static final TagKey<Item> LADDERS = createTag("ladders");
 
         public static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(DecorativeLadders.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(DecorativeLadders.MOD_ID, name));
         }
     }
     public static class Blocks {
         public static final TagKey<Block> LADDERS = createTag("ladders");
 
         public static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, new Identifier(DecorativeLadders.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(DecorativeLadders.MOD_ID, name));
         }
     }
 

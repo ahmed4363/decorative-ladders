@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "minecraft:dark_oak_log"
+  },
+  "pattern": [
+    "H H",
+    "HHH",
+    "H H"
+  ],
+  "result": {
+    "count": 7,
+    "id": "decorative-ladders:dark_oak_log_ladder"
+  }
+}

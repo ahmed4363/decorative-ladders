@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "minecraft:warped_stem"
+  },
+  "pattern": [
+    "H H",
+    "HHH",
+    "H H"
+  ],
+  "result": {
+    "count": 7,
+    "id": "decorative-ladders:warped_log_ladder"
+  }
+}

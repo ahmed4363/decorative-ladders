@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "minecraft:stripped_bamboo_block"
+  },
+  "pattern": [
+    "H H",
+    "HHH",
+    "H H"
+  ],
+  "result": {
+    "count": 7,
+    "id": "decorative-ladders:stripped_bamboo_log_ladder"
+  }
+}

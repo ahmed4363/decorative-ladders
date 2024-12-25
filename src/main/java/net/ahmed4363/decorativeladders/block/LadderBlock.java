@@ -1,5 +1,6 @@
 package net.ahmed4363.decorativeladders.block;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
@@ -21,6 +22,12 @@ public class LadderBlock extends HorizontalFacingBlock implements Waterloggable 
                 .with(Properties.HORIZONTAL_FACING, Direction.NORTH)
                 .with(WATERLOGGED, false));
     }
+
+    @Override
+    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+        return null;
+    }
+
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(Properties.HORIZONTAL_FACING, WATERLOGGED);
     }
