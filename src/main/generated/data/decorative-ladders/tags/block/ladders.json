@@ -32,6 +32,9 @@
     "decorative-ladders:stripped_crimson_log_ladder",
     "decorative-ladders:warped_plank_ladder",
     "decorative-ladders:warped_log_ladder",
-    "decorative-ladders:stripped_warped_log_ladder"
+    "decorative-ladders:stripped_warped_log_ladder",
+    "decorative-ladders:pale_oak_plank_ladder",
+    "decorative-ladders:pale_oak_log_ladder",
+    "decorative-ladders:stripped_pale_oak_log_ladder"
   ]
 }

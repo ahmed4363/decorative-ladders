@@ -5,8 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.server.recipe.RecipeExporter;
-import net.minecraft.data.server.recipe.RecipeGenerator;
+import net.minecraft.data.recipe.RecipeExporter;
+import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -76,6 +76,10 @@ public class RecipeDataGen extends RecipeGenerator {
         ladderRecipe(ModBlocks.WARPED_PLANK_LADDER, Blocks.WARPED_PLANKS, exporter);
         ladderRecipe(ModBlocks.WARPED_LOG_LADDER, Blocks.WARPED_STEM, exporter);
         ladderRecipe(ModBlocks.STRIPPED_WARPED_LOG_LADDER, Blocks.STRIPPED_WARPED_STEM, exporter);
+        //Pale Oak
+        ladderRecipe(ModBlocks.PALE_OAK_PLANK_LADDER, Blocks.PALE_OAK_PLANKS, exporter);
+        ladderRecipe(ModBlocks.PALE_OAK_LOG_LADDER, Blocks.PALE_OAK_LOG, exporter);
+        ladderRecipe(ModBlocks.STRIPPED_PALE_OAK_LOG_LADDER, Blocks.STRIPPED_PALE_OAK_LOG, exporter);
     }
 
     @Override

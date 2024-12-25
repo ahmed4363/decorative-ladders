@@ -61,6 +61,10 @@ public class ModBlocks {
     public static final Block WARPED_PLANK_LADDER = RegisterLadder("warped_plank_ladder");
     public static final Block WARPED_LOG_LADDER = RegisterLadder("warped_log_ladder");
     public static final Block STRIPPED_WARPED_LOG_LADDER = RegisterLadder("stripped_warped_log_ladder");
+    //Pale Oak Set
+    public static final Block PALE_OAK_PLANK_LADDER = RegisterLadder("pale_oak_plank_ladder");
+    public static final Block PALE_OAK_LOG_LADDER = RegisterLadder("pale_oak_log_ladder");
+    public static final Block STRIPPED_PALE_OAK_LOG_LADDER = RegisterLadder("stripped_pale_oak_log_ladder");
 
 
     private static Block RegisterBlock(String name, Block block)
@@ -91,7 +95,6 @@ public class ModBlocks {
     }
     public static void RegisterModBlocks()
     {
-        DecorativeLadders.LOGGER.info("Registering Blocks for " + DecorativeLadders.MOD_ID);
         //Oak
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, OAK_PLANK_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.OAK_BUTTON, STRIPPED_OAK_LOG_LADDER));
@@ -136,5 +139,9 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, WARPED_PLANK_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, STRIPPED_WARPED_LOG_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, WARPED_LOG_LADDER));
+        //Pale Oak
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.PALE_OAK_BUTTON, PALE_OAK_PLANK_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.PALE_OAK_BUTTON, STRIPPED_PALE_OAK_LOG_LADDER));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.PALE_OAK_BUTTON, PALE_OAK_LOG_LADDER));
     }
 }

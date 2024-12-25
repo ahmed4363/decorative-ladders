@@ -1,4 +1,4 @@
-// 1.21.3	2024-12-25T14:15:38.0084474	Decorative Ladders/Tags for minecraft:block
-5a2786618edf79393af65c6fd952a2a9313e3d44 data\decorative-ladders\tags\block\ladders.json
-faed8375f4ea0641fdc2dcfb673eb0eb81c64d52 data\minecraft\tags\block\climbable.json
-faed8375f4ea0641fdc2dcfb673eb0eb81c64d52 data\minecraft\tags\block\mineable\axe.json
+// 1.21.4	-999999999-01-01T00:00:00	Decorative Ladders/Tags for minecraft:block
+5f5dea34eca79a6a03d6fba78b4cb96da816acbc data/decorative-ladders/tags/block/ladders.json
+faed8375f4ea0641fdc2dcfb673eb0eb81c64d52 data/minecraft/tags/block/climbable.json
+faed8375f4ea0641fdc2dcfb673eb0eb81c64d52 data/minecraft/tags/block/mineable/axe.json

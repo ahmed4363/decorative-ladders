@@ -60,7 +60,10 @@ public class BlockTagDataGen extends FabricTagProvider.BlockTagProvider {
             //Warped
             .add(ModBlocks.WARPED_PLANK_LADDER)
             .add(ModBlocks.WARPED_LOG_LADDER)
-            .add(ModBlocks.STRIPPED_WARPED_LOG_LADDER);
+            .add(ModBlocks.STRIPPED_WARPED_LOG_LADDER)
+            .add(ModBlocks.PALE_OAK_PLANK_LADDER)
+            .add(ModBlocks.PALE_OAK_LOG_LADDER)
+            .add(ModBlocks.STRIPPED_PALE_OAK_LOG_LADDER);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .forceAddTag(ModTags.Blocks.LADDERS);

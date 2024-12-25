@@ -58,5 +58,9 @@ public class LootDataGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WARPED_PLANK_LADDER);
         addDrop(ModBlocks.WARPED_LOG_LADDER);
         addDrop(ModBlocks.STRIPPED_WARPED_LOG_LADDER);
+        //Pale Oak
+        addDrop(ModBlocks.PALE_OAK_PLANK_LADDER);
+        addDrop(ModBlocks.PALE_OAK_LOG_LADDER);
+        addDrop(ModBlocks.STRIPPED_PALE_OAK_LOG_LADDER);
     }
 }

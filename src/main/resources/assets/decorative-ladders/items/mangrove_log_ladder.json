@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "decorative-ladders:block/mangrove/mangrove_log_ladder"
+    }
+}

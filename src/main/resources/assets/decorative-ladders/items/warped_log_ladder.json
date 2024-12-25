@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "decorative-ladders:block/warped/warped_log_ladder"
+    }
+}

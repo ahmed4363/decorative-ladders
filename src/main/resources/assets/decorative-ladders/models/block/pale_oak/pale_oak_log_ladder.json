@@ -1,0 +1,7 @@
+{
+  "textures": {
+    "0": "minecraft:block/pale_oak_log",
+    "particle": "minecraft:block/pale_oak_log"
+  },
+  "parent": "decorative-ladders:block/ladder"
+}
