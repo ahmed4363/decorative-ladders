@@ -1,11 +1,9 @@
 package net.ahmed4363.decorativeladders.datagen;
 
-import net.ahmed4363.decorativeladders.block.LadderBlock;
 import net.ahmed4363.decorativeladders.block.ModBlocks;
 import net.ahmed4363.decorativeladders.tags.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 

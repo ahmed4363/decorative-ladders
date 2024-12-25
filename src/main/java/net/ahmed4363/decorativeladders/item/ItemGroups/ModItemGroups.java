@@ -68,6 +68,6 @@ public class ModItemGroups {
 
     public static void RegisterItemGroups()
     {
-        DecorativeLadders.LOGGER.info("Adding Item Groups to " + DecorativeLadders.MOD_ID);
+
     }
 }
