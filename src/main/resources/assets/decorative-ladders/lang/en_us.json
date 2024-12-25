@@ -44,5 +44,9 @@
   "block.decorative-ladders.warped_log_ladder": "Warped Stem Ladder",
   "block.decorative-ladders.stripped_warped_log_ladder": "Stripped Warped Stem Ladder",
 
+  "block.decorative-ladders.pale_oak_plank_ladder": "Pale Oak Planks Ladder",
+  "block.decorative-ladders.pale_oak_log_ladder": "Pale Oak Log Ladder",
+  "block.decorative-ladders.stripped_pale_oak_log_ladder": "Stripped Pale Oak Log Ladder",
+
   "itemgroup.decorative-ladders.ladders": "Decorative Ladders"
 }
