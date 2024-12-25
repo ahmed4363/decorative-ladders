@@ -62,5 +62,7 @@ public class LootDataGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PALE_OAK_PLANK_LADDER);
         addDrop(ModBlocks.PALE_OAK_LOG_LADDER);
         addDrop(ModBlocks.STRIPPED_PALE_OAK_LOG_LADDER);
+        //Iron
+        addDrop(ModBlocks.IRON_LADDER);
     }
 }

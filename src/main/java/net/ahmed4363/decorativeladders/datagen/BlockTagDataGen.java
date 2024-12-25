@@ -16,7 +16,8 @@ public class BlockTagDataGen extends FabricTagProvider.BlockTagProvider {
     }
 
     @Override
-    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {getOrCreateTagBuilder(ModTags.Blocks.LADDERS)
+    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+        getOrCreateTagBuilder(ModTags.Blocks.WOOD_LADDERS)
             //Oak
             .add(ModBlocks.OAK_PLANK_LADDER)
             .add(ModBlocks.OAK_LOG_LADDER)
@@ -64,10 +65,20 @@ public class BlockTagDataGen extends FabricTagProvider.BlockTagProvider {
             .add(ModBlocks.PALE_OAK_PLANK_LADDER)
             .add(ModBlocks.PALE_OAK_LOG_LADDER)
             .add(ModBlocks.STRIPPED_PALE_OAK_LOG_LADDER);
+        getOrCreateTagBuilder(ModTags.Blocks.METAL_LADDERS)
+                .add(ModBlocks.IRON_LADDER);
 
+        getOrCreateTagBuilder(ModTags.Blocks.LADDERS)
+                .addTag(ModTags.Blocks.WOOD_LADDERS)
+                .addTag(ModTags.Blocks.METAL_LADDERS);
+
+        //Set Mineables
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .forceAddTag(ModTags.Blocks.LADDERS);
+                .forceAddTag(ModTags.Blocks.WOOD_LADDERS);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .forceAddTag(ModTags.Blocks.METAL_LADDERS);
 
+        //Add ladder tag
         getOrCreateTagBuilder(BlockTags.CLIMBABLE)
                 .forceAddTag(ModTags.Blocks.LADDERS);
     }

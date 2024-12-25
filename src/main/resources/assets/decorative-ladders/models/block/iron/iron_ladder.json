@@ -1,0 +1,7 @@
+{
+  "textures": {
+    "0": "minecraft:block/iron_block",
+    "particle": "minecraft:block/iron_block"
+  },
+  "parent": "decorative-ladders:block/ladder"
+}

@@ -80,6 +80,8 @@ public class RecipeDataGen extends RecipeGenerator {
         ladderRecipe(ModBlocks.PALE_OAK_PLANK_LADDER, Blocks.PALE_OAK_PLANKS, exporter);
         ladderRecipe(ModBlocks.PALE_OAK_LOG_LADDER, Blocks.PALE_OAK_LOG, exporter);
         ladderRecipe(ModBlocks.STRIPPED_PALE_OAK_LOG_LADDER, Blocks.STRIPPED_PALE_OAK_LOG, exporter);
+        //Iron
+        ladderRecipe(ModBlocks.IRON_LADDER, Blocks.IRON_BLOCK, exporter);
     }
 
     @Override

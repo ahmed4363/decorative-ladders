@@ -1,4 +1,7 @@
 // 1.21.4	-999999999-01-01T00:00:00	Decorative Ladders/Tags for minecraft:block
-5f5dea34eca79a6a03d6fba78b4cb96da816acbc data/decorative-ladders/tags/block/ladders.json
+2ba3313ee98ace52549b1848140dd0710f873406 data/decorative-ladders/tags/block/ladders.json
+65c7896e78620c6e52b44bdf1822bac74abbe123 data/decorative-ladders/tags/block/metal_ladders.json
+5f5dea34eca79a6a03d6fba78b4cb96da816acbc data/decorative-ladders/tags/block/wood_ladders.json
 faed8375f4ea0641fdc2dcfb673eb0eb81c64d52 data/minecraft/tags/block/climbable.json
-faed8375f4ea0641fdc2dcfb673eb0eb81c64d52 data/minecraft/tags/block/mineable/axe.json
+e929630bafd1161269e494de328849bd6d6debe0 data/minecraft/tags/block/mineable/axe.json
+bd1ae70f5ff11adda987940d5ba31eedf947c311 data/minecraft/tags/block/mineable/pickaxe.json

@@ -65,6 +65,8 @@ public class ModBlocks {
     public static final Block PALE_OAK_PLANK_LADDER = RegisterLadder("pale_oak_plank_ladder");
     public static final Block PALE_OAK_LOG_LADDER = RegisterLadder("pale_oak_log_ladder");
     public static final Block STRIPPED_PALE_OAK_LOG_LADDER = RegisterLadder("stripped_pale_oak_log_ladder");
+    //Metals
+    public static final Block IRON_LADDER = RegisterIronLadder("iron_ladder");
 
 
     private static Block RegisterBlock(String name, Block block)
@@ -76,6 +78,11 @@ public class ModBlocks {
     private static Block RegisterLadder(String name)
     {
         LadderBlock ladder = new LadderBlock(AbstractBlock.Settings.copy(Blocks.LADDER).solid().pistonBehavior(PistonBehavior.NORMAL).registryKey(GetBlockKey(name)));
+        return RegisterBlock(name, ladder);
+    }
+    private static Block RegisterIronLadder(String name)
+    {
+        LadderBlock ladder = new LadderBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).strength(0.4f).nonOpaque().registryKey(GetBlockKey(name)));
         return RegisterBlock(name, ladder);
     }
     private static Item RegisterBlockItem(String name, Block block)
@@ -143,5 +150,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.PALE_OAK_BUTTON, PALE_OAK_PLANK_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.PALE_OAK_BUTTON, STRIPPED_PALE_OAK_LOG_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.PALE_OAK_BUTTON, PALE_OAK_LOG_LADDER));
+        //Iron
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.IRON_BLOCK, ModBlocks.IRON_LADDER));
     }
 }

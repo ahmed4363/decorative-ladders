@@ -17,6 +17,8 @@ public class ModTags {
     }
     public static class Blocks {
         public static final TagKey<Block> LADDERS = createTag("ladders");
+        public static final TagKey<Block> METAL_LADDERS = createTag("metal_ladders");
+        public static final TagKey<Block> WOOD_LADDERS = createTag("wood_ladders");
 
         public static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(DecorativeLadders.MOD_ID, name));
