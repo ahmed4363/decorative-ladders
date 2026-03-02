@@ -12,6 +12,7 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -59,11 +60,17 @@ public class ModBlocks {
     public static final Block WARPED_PLANK_LADDER = RegisterLadderBlock("warped_plank_ladder");
     public static final Block WARPED_LOG_LADDER = RegisterLadderBlock("warped_log_ladder");
     public static final Block STRIPPED_WARPED_LOG_LADDER = RegisterLadderBlock("stripped_warped_log_ladder");
+    //Metal
+    public static final Block IRON_LADDER = RegisterMetalLadderBlock("iron_ladder");
 
 
     private static Block RegisterLadderBlock(String name)
     {
         return RegisterBlock(name, new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER)));
+    }
+    private static Block RegisterMetalLadderBlock(String name)
+    {
+        return RegisterBlock(name, new LadderBlock(FabricBlockSettings.copyOf(ModBlocks.OAK_PLANK_LADDER).sounds(BlockSoundGroup.METAL).strength(4).requiresTool()));
     }
     private static Block RegisterBlock(String name, Block block)
     {
@@ -121,5 +128,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, WARPED_PLANK_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, STRIPPED_WARPED_LOG_LADDER));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.WARPED_BUTTON, WARPED_LOG_LADDER));
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.addAfter(Items.IRON_DOOR, IRON_LADDER));
     }
 }

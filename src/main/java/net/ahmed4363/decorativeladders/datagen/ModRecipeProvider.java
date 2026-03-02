@@ -7,6 +7,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -17,6 +19,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         super(output);
     }
     private void ladderRecipe(Block ladder, Block input, Consumer<RecipeJsonProvider> exporter)
+    {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ladder, 7)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("# #")
+                .input('#', input)
+                .criterion(FabricRecipeProvider.hasItem(input), FabricRecipeProvider.conditionsFromItem(ladder))
+                .offerTo(exporter, new Identifier(getRecipeName(ladder)));
+    }
+    private void ladderRecipe(Block ladder, Item input, Consumer<RecipeJsonProvider> exporter)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ladder, 7)
                 .pattern("# #")
@@ -73,5 +85,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ladderRecipe(ModBlocks.WARPED_PLANK_LADDER, Blocks.WARPED_PLANKS, exporter);
         ladderRecipe(ModBlocks.WARPED_LOG_LADDER, Blocks.WARPED_STEM, exporter);
         ladderRecipe(ModBlocks.STRIPPED_WARPED_LOG_LADDER, Blocks.STRIPPED_WARPED_STEM, exporter);
+
+        ladderRecipe(ModBlocks.IRON_LADDER, Items.IRON_INGOT, exporter);
     }
 }

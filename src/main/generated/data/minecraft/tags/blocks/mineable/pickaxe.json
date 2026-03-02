@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#decorative-ladders:wooden_ladders",
     "decorative-ladders:iron_ladder"
   ]
 }

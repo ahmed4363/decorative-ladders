@@ -17,7 +17,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
-        getOrCreateTagBuilder(ModTags.Blocks.LADDERS)
+        getOrCreateTagBuilder(ModTags.Blocks.WOODEN_LADDERS)
                 //Oak
                         .add(ModBlocks.OAK_PLANK_LADDER)
                         .add(ModBlocks.OAK_LOG_LADDER)
@@ -35,36 +35,42 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         .add(ModBlocks.DARK_OAK_LOG_LADDER)
                         .add(ModBlocks.STRIPPED_DARK_OAK_LOG_LADDER)
                 //Acacia
-                .add(ModBlocks.ACACIA_PLANK_LADDER)
-                .add(ModBlocks.ACACIA_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_ACACIA_LOG_LADDER)
+                        .add(ModBlocks.ACACIA_PLANK_LADDER)
+                        .add(ModBlocks.ACACIA_LOG_LADDER)
+                        .add(ModBlocks.STRIPPED_ACACIA_LOG_LADDER)
                 //Jungle
-                .add(ModBlocks.JUNGLE_PLANK_LADDER)
-                .add(ModBlocks.JUNGLE_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_JUNGLE_LOG_LADDER)
+                        .add(ModBlocks.JUNGLE_PLANK_LADDER)
+                        .add(ModBlocks.JUNGLE_LOG_LADDER)
+                        .add(ModBlocks.STRIPPED_JUNGLE_LOG_LADDER)
                 //Mangrove
-                .add(ModBlocks.MANGROVE_PLANK_LADDER)
-                .add(ModBlocks.MANGROVE_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_MANGROVE_LOG_LADDER)
+                        .add(ModBlocks.MANGROVE_PLANK_LADDER)
+                        .add(ModBlocks.MANGROVE_LOG_LADDER)
+                        .add(ModBlocks.STRIPPED_MANGROVE_LOG_LADDER)
                 //Cherry
-                .add(ModBlocks.CHERRY_PLANK_LADDER)
-                .add(ModBlocks.CHERRY_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_CHERRY_LOG_LADDER)
+                        .add(ModBlocks.CHERRY_PLANK_LADDER)
+                        .add(ModBlocks.CHERRY_LOG_LADDER)
+                        .add(ModBlocks.STRIPPED_CHERRY_LOG_LADDER)
                 //Bamboo
-                .add(ModBlocks.BAMBOO_PLANK_LADDER)
-                .add(ModBlocks.BAMBOO_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_BAMBOO_LOG_LADDER)
+                        .add(ModBlocks.BAMBOO_PLANK_LADDER)
+                        .add(ModBlocks.BAMBOO_LOG_LADDER)
+                        .add(ModBlocks.STRIPPED_BAMBOO_LOG_LADDER)
                 //Crimson
-                .add(ModBlocks.CRIMSON_PLANK_LADDER)
-                .add(ModBlocks.CRIMSON_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_CRIMSON_LOG_LADDER)
+                        .add(ModBlocks.CRIMSON_PLANK_LADDER)
+                        .add(ModBlocks.CRIMSON_LOG_LADDER)
+                        .add(ModBlocks.STRIPPED_CRIMSON_LOG_LADDER)
                 //Warped
-                .add(ModBlocks.WARPED_PLANK_LADDER)
-                .add(ModBlocks.WARPED_LOG_LADDER)
-                .add(ModBlocks.STRIPPED_WARPED_LOG_LADDER);
+                        .add(ModBlocks.WARPED_PLANK_LADDER)
+                        .add(ModBlocks.WARPED_LOG_LADDER)
+                        .add(ModBlocks.STRIPPED_WARPED_LOG_LADDER);
+
+        getOrCreateTagBuilder(ModTags.Blocks.LADDERS)
+                        .forceAddTag(ModTags.Blocks.WOODEN_LADDERS)
+                        .add(ModBlocks.IRON_LADDER);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .forceAddTag(ModTags.Blocks.LADDERS);
+                .forceAddTag(ModTags.Blocks.WOODEN_LADDERS);
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.IRON_LADDER);
 
         getOrCreateTagBuilder(BlockTags.CLIMBABLE)
                 .forceAddTag(ModTags.Blocks.LADDERS);
