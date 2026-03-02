@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "decorative-ladders:block/iron/iron_ladder"
+        "model": "decorative-ladders:block/metal/iron_ladder"
     }
 }

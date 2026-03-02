@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "oak_planks",
@@ -107,16 +108,16 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [7, 21, 0],
-			"translation": [1.5, -1, 0],
+			"rotation": [22, -35, 0],
+			"translation": [-3.25, -1.75, 0],
 			"scale": [0.77, 0.77, 0.77]
 		},
 		"head": {
-			"rotation": [0, 180, 0],
+			"rotation": [0, -180, 0],
 			"translation": [0, 0.25, -13]
 		},
 		"fixed": {
-			"rotation": [0, 180, 0],
+			"rotation": [0, -180, 0],
 			"translation": [0, 0, -5.5]
 		}
 	},
