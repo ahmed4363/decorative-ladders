@@ -1,9 +1,9 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a report to help improve the mod
 title: "[BUG] Issue Name"
 labels: bug
-assignees: ''
+assignees: ahmed4363
 
 ---
 
@@ -25,4 +25,4 @@ A clear and concise description of what you expected to happen.
 - ModLoader [e.g. Fabric]
 
 **Crash Logs**
-Please Provide the crash log, you can spoiler it here or use a pastebin site
+Please provide the crash log if available
