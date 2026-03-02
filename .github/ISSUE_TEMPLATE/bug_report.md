@@ -22,7 +22,7 @@ A clear and concise description of what you expected to happen.
 
 **Minecraft Version and Loader**
 - Minecraft Version: [e.g. 1.20.1]
-- ModLoader [e.g. Fabric]
+- ModLoader version [e.g. Fabric 0.91.0]
 
 **Crash Logs**
 Please provide the crash log if available
